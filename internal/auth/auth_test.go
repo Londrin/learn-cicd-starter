@@ -31,7 +31,7 @@ func TestGetAPIKey(t *testing.T) {
 		{
 			name:    "Valid key, invalid value",
 			header:  header3,
-			wantErr: false,
+			wantErr: true,
 		},
 	}
 
